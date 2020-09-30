@@ -14,6 +14,17 @@
 		F2B83DC324FE4CDB00D88AAC /* Modules.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DC124FE4CDB00D88AAC /* Modules.xcdatamodeld */; };
 		F2B83DC524FE4CDF00D88AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B83DC424FE4CDF00D88AAC /* Assets.xcassets */; };
 		F2B83DC824FE4CDF00D88AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B83DC624FE4CDF00D88AAC /* LaunchScreen.storyboard */; };
+		F2B83DD124FE4D1100D88AAC /* CameraModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DD024FE4D1100D88AAC /* CameraModule.swift */; };
+		F2B83DD324FE4D2500D88AAC /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DD224FE4D2500D88AAC /* QRCodeGenerator.swift */; };
+		F2B83DD524FE4D3400D88AAC /* QRCodeTaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DD424FE4D3400D88AAC /* QRCodeTaskHandler.swift */; };
+		F2B83DD824FE4F0400D88AAC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DD724FE4F0400D88AAC /* Utils.swift */; };
+		F2B83DDB24FE4F3F00D88AAC /* Drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DDA24FE4F3F00D88AAC /* Drawer.swift */; };
+		F2B83DDE24FE54E000D88AAC /* GameMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DDD24FE54E000D88AAC /* GameMaster.swift */; };
+		F2B83DE024FE54EA00D88AAC /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DDF24FE54EA00D88AAC /* GameProtocol.swift */; };
+		F2B83DE224FE54FC00D88AAC /* BalloonGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DE124FE54FC00D88AAC /* BalloonGame.swift */; };
+		F2B83DE424FE56A000D88AAC /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DE324FE56A000D88AAC /* Games.swift */; };
+		F2B83DE624FE57B800D88AAC /* CatGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DE524FE57B800D88AAC /* CatGame.swift */; };
+		F2B83DE924FE582700D88AAC /* PauseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83DE824FE582700D88AAC /* PauseScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		F2B83DC424FE4CDF00D88AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2B83DC724FE4CDF00D88AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2B83DC924FE4CDF00D88AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B83DD024FE4D1100D88AAC /* CameraModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModule.swift; sourceTree = "<group>"; };
+		F2B83DD224FE4D2500D88AAC /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		F2B83DD424FE4D3400D88AAC /* QRCodeTaskHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeTaskHandler.swift; sourceTree = "<group>"; };
+		F2B83DD724FE4F0400D88AAC /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F2B83DDA24FE4F3F00D88AAC /* Drawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawer.swift; sourceTree = "<group>"; };
+		F2B83DDD24FE54E000D88AAC /* GameMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMaster.swift; sourceTree = "<group>"; };
+		F2B83DDF24FE54EA00D88AAC /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		F2B83DE124FE54FC00D88AAC /* BalloonGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonGame.swift; sourceTree = "<group>"; };
+		F2B83DE324FE56A000D88AAC /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		F2B83DE524FE57B800D88AAC /* CatGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGame.swift; sourceTree = "<group>"; };
+		F2B83DE824FE582700D88AAC /* PauseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +84,63 @@
 				F2B83DBA24FE4CDB00D88AAC /* SceneDelegate.swift */,
 				F2B83DBC24FE4CDB00D88AAC /* ViewController.swift */,
 				F2B83DBE24FE4CDB00D88AAC /* Main.storyboard */,
-				F2B83DC424FE4CDF00D88AAC /* Assets.xcassets */,
 				F2B83DC624FE4CDF00D88AAC /* LaunchScreen.storyboard */,
+				F2B83DC424FE4CDF00D88AAC /* Assets.xcassets */,
+				F2B83DDC24FE54D400D88AAC /* Games */,
+				F2B83DD924FE4F3000D88AAC /* ARCamera */,
+				F2B83DD624FE4EF600D88AAC /* ShaderUtils */,
+				F2B83DCF24FE4CFB00D88AAC /* QRCodeReader */,
 				F2B83DC924FE4CDF00D88AAC /* Info.plist */,
 				F2B83DC124FE4CDB00D88AAC /* Modules.xcdatamodeld */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		F2B83DCF24FE4CFB00D88AAC /* QRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				F2B83DD024FE4D1100D88AAC /* CameraModule.swift */,
+				F2B83DD224FE4D2500D88AAC /* QRCodeGenerator.swift */,
+				F2B83DD424FE4D3400D88AAC /* QRCodeTaskHandler.swift */,
+			);
+			path = QRCodeReader;
+			sourceTree = "<group>";
+		};
+		F2B83DD624FE4EF600D88AAC /* ShaderUtils */ = {
+			isa = PBXGroup;
+			children = (
+				F2B83DD724FE4F0400D88AAC /* Utils.swift */,
+			);
+			path = ShaderUtils;
+			sourceTree = "<group>";
+		};
+		F2B83DD924FE4F3000D88AAC /* ARCamera */ = {
+			isa = PBXGroup;
+			children = (
+				F2B83DDA24FE4F3F00D88AAC /* Drawer.swift */,
+			);
+			path = ARCamera;
+			sourceTree = "<group>";
+		};
+		F2B83DDC24FE54D400D88AAC /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				F2B83DE324FE56A000D88AAC /* Games.swift */,
+				F2B83DDD24FE54E000D88AAC /* GameMaster.swift */,
+				F2B83DDF24FE54EA00D88AAC /* GameProtocol.swift */,
+				F2B83DE124FE54FC00D88AAC /* BalloonGame.swift */,
+				F2B83DE524FE57B800D88AAC /* CatGame.swift */,
+				F2B83DE724FE581400D88AAC /* PauseScreen */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		F2B83DE724FE581400D88AAC /* PauseScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F2B83DE824FE582700D88AAC /* PauseScreen.swift */,
+			);
+			path = PauseScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +214,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B83DD124FE4D1100D88AAC /* CameraModule.swift in Sources */,
+				F2B83DD324FE4D2500D88AAC /* QRCodeGenerator.swift in Sources */,
+				F2B83DE424FE56A000D88AAC /* Games.swift in Sources */,
 				F2B83DBD24FE4CDB00D88AAC /* ViewController.swift in Sources */,
 				F2B83DC324FE4CDB00D88AAC /* Modules.xcdatamodeld in Sources */,
+				F2B83DDB24FE4F3F00D88AAC /* Drawer.swift in Sources */,
+				F2B83DE624FE57B800D88AAC /* CatGame.swift in Sources */,
+				F2B83DE924FE582700D88AAC /* PauseScreen.swift in Sources */,
+				F2B83DDE24FE54E000D88AAC /* GameMaster.swift in Sources */,
 				F2B83DB924FE4CDB00D88AAC /* AppDelegate.swift in Sources */,
 				F2B83DBB24FE4CDB00D88AAC /* SceneDelegate.swift in Sources */,
+				F2B83DD524FE4D3400D88AAC /* QRCodeTaskHandler.swift in Sources */,
+				F2B83DE224FE54FC00D88AAC /* BalloonGame.swift in Sources */,
+				F2B83DE024FE54EA00D88AAC /* GameProtocol.swift in Sources */,
+				F2B83DD824FE4F0400D88AAC /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

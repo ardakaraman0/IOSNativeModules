@@ -7,3 +7,35 @@
 //
 
 import Foundation
+import UIKit
+import SpriteKit
+
+
+class GameMaster: NSObject ,GameProtocol, SKSceneDelegate  {
+    
+    var scoreCounter: Int = 0
+    var theGame: GameProtocol
+    
+    override init() {
+        super.init()
+        
+    }
+    
+    
+    func prepare() {
+        <#code#>
+    }
+    
+    func render(currentTime: TimeInterval, scene: SKScene) {
+        <#code#>
+    }
+    
+    func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        <#code#>
+    }
+    
+    
+    
+    
+}
+

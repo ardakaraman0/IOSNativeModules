@@ -7,3 +7,32 @@
 //
 
 import Foundation
+import SpriteKit
+import UIKit
+
+class BalloonGame: GameProtocol {
+    
+    var scoreCounter: Int
+    
+    init(scene: SKScene) {
+        
+    }
+    
+    func prepare() {
+        <#code#>
+    }
+    
+    func render(currentTime: TimeInterval, scene: SKScene) {
+        <#code#>
+    }
+    
+    func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        <#code#>
+    }
+    
+    
+    
+    
+    
+    
+}
